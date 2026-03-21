@@ -1,0 +1,1032 @@
+{
+  "year": 2024,
+  "regions": {
+    "East": {
+      "teams": [
+        {
+          "seed": 1,
+          "name": "UConn"
+        },
+        {
+          "seed": 16,
+          "name": "Stetson"
+        },
+        {
+          "seed": 8,
+          "name": "Florida Atlantic"
+        },
+        {
+          "seed": 9,
+          "name": "Northwestern"
+        },
+        {
+          "seed": 5,
+          "name": "San Diego State"
+        },
+        {
+          "seed": 12,
+          "name": "UAB"
+        },
+        {
+          "seed": 4,
+          "name": "Auburn"
+        },
+        {
+          "seed": 13,
+          "name": "Yale"
+        },
+        {
+          "seed": 6,
+          "name": "BYU"
+        },
+        {
+          "seed": 11,
+          "name": "Duquesne"
+        },
+        {
+          "seed": 3,
+          "name": "Illinois"
+        },
+        {
+          "seed": 14,
+          "name": "Morehead State"
+        },
+        {
+          "seed": 7,
+          "name": "Washington State"
+        },
+        {
+          "seed": 10,
+          "name": "Drake"
+        },
+        {
+          "seed": 2,
+          "name": "Iowa State"
+        },
+        {
+          "seed": 15,
+          "name": "South Dakota State"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "team_a": "UConn",
+            "seed_a": 1,
+            "team_b": "Stetson",
+            "seed_b": 16,
+            "prob_a": 0.987,
+            "prob_b": 0.013,
+            "pick": "UConn",
+            "pick_seed": 1,
+            "pick_prob": 0.987
+          },
+          {
+            "team_a": "Florida Atlantic",
+            "seed_a": 8,
+            "team_b": "Northwestern",
+            "seed_b": 9,
+            "prob_a": 0.272,
+            "prob_b": 0.728,
+            "pick": "Northwestern",
+            "pick_seed": 9,
+            "pick_prob": 0.728
+          },
+          {
+            "team_a": "San Diego State",
+            "seed_a": 5,
+            "team_b": "UAB",
+            "seed_b": 12,
+            "prob_a": 0.313,
+            "prob_b": 0.687,
+            "pick": "UAB",
+            "pick_seed": 12,
+            "pick_prob": 0.687
+          },
+          {
+            "team_a": "Auburn",
+            "seed_a": 4,
+            "team_b": "Yale",
+            "seed_b": 13,
+            "prob_a": 0.968,
+            "prob_b": 0.032,
+            "pick": "Auburn",
+            "pick_seed": 4,
+            "pick_prob": 0.968
+          },
+          {
+            "team_a": "BYU",
+            "seed_a": 6,
+            "team_b": "Duquesne",
+            "seed_b": 11,
+            "prob_a": 0.903,
+            "prob_b": 0.097,
+            "pick": "BYU",
+            "pick_seed": 6,
+            "pick_prob": 0.903
+          },
+          {
+            "team_a": "Illinois",
+            "seed_a": 3,
+            "team_b": "Morehead State",
+            "seed_b": 14,
+            "prob_a": 0.99,
+            "prob_b": 0.01,
+            "pick": "Illinois",
+            "pick_seed": 3,
+            "pick_prob": 0.99
+          },
+          {
+            "team_a": "Washington State",
+            "seed_a": 7,
+            "team_b": "Drake",
+            "seed_b": 10,
+            "prob_a": 0.761,
+            "prob_b": 0.239,
+            "pick": "Washington State",
+            "pick_seed": 7,
+            "pick_prob": 0.761
+          },
+          {
+            "team_a": "Iowa State",
+            "seed_a": 2,
+            "team_b": "South Dakota State",
+            "seed_b": 15,
+            "prob_a": 0.936,
+            "prob_b": 0.064,
+            "pick": "Iowa State",
+            "pick_seed": 2,
+            "pick_prob": 0.936
+          }
+        ],
+        [
+          {
+            "team_a": "UConn",
+            "seed_a": 1,
+            "team_b": "Northwestern",
+            "seed_b": 9,
+            "prob_a": 0.95,
+            "prob_b": 0.05,
+            "pick": "UConn",
+            "pick_seed": 1,
+            "pick_prob": 0.95
+          },
+          {
+            "team_a": "UAB",
+            "seed_a": 12,
+            "team_b": "Auburn",
+            "seed_b": 4,
+            "prob_a": 0.194,
+            "prob_b": 0.806,
+            "pick": "Auburn",
+            "pick_seed": 4,
+            "pick_prob": 0.806
+          },
+          {
+            "team_a": "BYU",
+            "seed_a": 6,
+            "team_b": "Illinois",
+            "seed_b": 3,
+            "prob_a": 0.222,
+            "prob_b": 0.778,
+            "pick": "Illinois",
+            "pick_seed": 3,
+            "pick_prob": 0.778
+          },
+          {
+            "team_a": "Washington State",
+            "seed_a": 7,
+            "team_b": "Iowa State",
+            "seed_b": 2,
+            "prob_a": 0.41,
+            "prob_b": 0.59,
+            "pick": "Iowa State",
+            "pick_seed": 2,
+            "pick_prob": 0.59
+          }
+        ],
+        [
+          {
+            "team_a": "UConn",
+            "seed_a": 1,
+            "team_b": "Auburn",
+            "seed_b": 4,
+            "prob_a": 0.962,
+            "prob_b": 0.038,
+            "pick": "UConn",
+            "pick_seed": 1,
+            "pick_prob": 0.962
+          },
+          {
+            "team_a": "Illinois",
+            "seed_a": 3,
+            "team_b": "Iowa State",
+            "seed_b": 2,
+            "prob_a": 0.031,
+            "prob_b": 0.969,
+            "pick": "Iowa State",
+            "pick_seed": 2,
+            "pick_prob": 0.969
+          }
+        ],
+        [
+          {
+            "team_a": "UConn",
+            "seed_a": 1,
+            "team_b": "Iowa State",
+            "seed_b": 2,
+            "prob_a": 0.78,
+            "prob_b": 0.22,
+            "pick": "UConn",
+            "pick_seed": 1,
+            "pick_prob": 0.78
+          }
+        ]
+      ],
+      "winner": {
+        "seed": 1,
+        "name": "UConn"
+      }
+    },
+    "West": {
+      "teams": [
+        {
+          "seed": 1,
+          "name": "North Carolina"
+        },
+        {
+          "seed": 16,
+          "name": "Wagner"
+        },
+        {
+          "seed": 8,
+          "name": "Mississippi State"
+        },
+        {
+          "seed": 9,
+          "name": "Michigan State"
+        },
+        {
+          "seed": 5,
+          "name": "Saint Mary's"
+        },
+        {
+          "seed": 12,
+          "name": "Grand Canyon"
+        },
+        {
+          "seed": 4,
+          "name": "Alabama"
+        },
+        {
+          "seed": 13,
+          "name": "Charleston"
+        },
+        {
+          "seed": 6,
+          "name": "Clemson"
+        },
+        {
+          "seed": 11,
+          "name": "New Mexico"
+        },
+        {
+          "seed": 3,
+          "name": "Baylor"
+        },
+        {
+          "seed": 14,
+          "name": "Colgate"
+        },
+        {
+          "seed": 7,
+          "name": "Dayton"
+        },
+        {
+          "seed": 10,
+          "name": "Nevada"
+        },
+        {
+          "seed": 2,
+          "name": "Arizona"
+        },
+        {
+          "seed": 15,
+          "name": "Long Beach State"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "team_a": "North Carolina",
+            "seed_a": 1,
+            "team_b": "Wagner",
+            "seed_b": 16,
+            "prob_a": 0.99,
+            "prob_b": 0.01,
+            "pick": "North Carolina",
+            "pick_seed": 1,
+            "pick_prob": 0.99
+          },
+          {
+            "team_a": "Mississippi State",
+            "seed_a": 8,
+            "team_b": "Michigan State",
+            "seed_b": 9,
+            "prob_a": 0.456,
+            "prob_b": 0.544,
+            "pick": "Michigan State",
+            "pick_seed": 9,
+            "pick_prob": 0.544
+          },
+          {
+            "team_a": "Saint Mary's",
+            "seed_a": 5,
+            "team_b": "Grand Canyon",
+            "seed_b": 12,
+            "prob_a": 0.925,
+            "prob_b": 0.075,
+            "pick": "Saint Mary's",
+            "pick_seed": 5,
+            "pick_prob": 0.925
+          },
+          {
+            "team_a": "Alabama",
+            "seed_a": 4,
+            "team_b": "Charleston",
+            "seed_b": 13,
+            "prob_a": 0.772,
+            "prob_b": 0.228,
+            "pick": "Alabama",
+            "pick_seed": 4,
+            "pick_prob": 0.772
+          },
+          {
+            "team_a": "Clemson",
+            "seed_a": 6,
+            "team_b": "New Mexico",
+            "seed_b": 11,
+            "prob_a": 0.429,
+            "prob_b": 0.571,
+            "pick": "New Mexico",
+            "pick_seed": 11,
+            "pick_prob": 0.571
+          },
+          {
+            "team_a": "Baylor",
+            "seed_a": 3,
+            "team_b": "Colgate",
+            "seed_b": 14,
+            "prob_a": 0.948,
+            "prob_b": 0.052,
+            "pick": "Baylor",
+            "pick_seed": 3,
+            "pick_prob": 0.948
+          },
+          {
+            "team_a": "Dayton",
+            "seed_a": 7,
+            "team_b": "Nevada",
+            "seed_b": 10,
+            "prob_a": 0.769,
+            "prob_b": 0.231,
+            "pick": "Dayton",
+            "pick_seed": 7,
+            "pick_prob": 0.769
+          },
+          {
+            "team_a": "Arizona",
+            "seed_a": 2,
+            "team_b": "Long Beach State",
+            "seed_b": 15,
+            "prob_a": 0.989,
+            "prob_b": 0.011,
+            "pick": "Arizona",
+            "pick_seed": 2,
+            "pick_prob": 0.989
+          }
+        ],
+        [
+          {
+            "team_a": "North Carolina",
+            "seed_a": 1,
+            "team_b": "Michigan State",
+            "seed_b": 9,
+            "prob_a": 0.329,
+            "prob_b": 0.671,
+            "pick": "Michigan State",
+            "pick_seed": 9,
+            "pick_prob": 0.671
+          },
+          {
+            "team_a": "Saint Mary's",
+            "seed_a": 5,
+            "team_b": "Alabama",
+            "seed_b": 4,
+            "prob_a": 0.034,
+            "prob_b": 0.966,
+            "pick": "Alabama",
+            "pick_seed": 4,
+            "pick_prob": 0.966
+          },
+          {
+            "team_a": "New Mexico",
+            "seed_a": 11,
+            "team_b": "Baylor",
+            "seed_b": 3,
+            "prob_a": 0.123,
+            "prob_b": 0.877,
+            "pick": "Baylor",
+            "pick_seed": 3,
+            "pick_prob": 0.877
+          },
+          {
+            "team_a": "Dayton",
+            "seed_a": 7,
+            "team_b": "Arizona",
+            "seed_b": 2,
+            "prob_a": 0.131,
+            "prob_b": 0.869,
+            "pick": "Arizona",
+            "pick_seed": 2,
+            "pick_prob": 0.869
+          }
+        ],
+        [
+          {
+            "team_a": "Michigan State",
+            "seed_a": 9,
+            "team_b": "Alabama",
+            "seed_b": 4,
+            "prob_a": 0.07,
+            "prob_b": 0.93,
+            "pick": "Alabama",
+            "pick_seed": 4,
+            "pick_prob": 0.93
+          },
+          {
+            "team_a": "Baylor",
+            "seed_a": 3,
+            "team_b": "Arizona",
+            "seed_b": 2,
+            "prob_a": 0.537,
+            "prob_b": 0.463,
+            "pick": "Baylor",
+            "pick_seed": 3,
+            "pick_prob": 0.537
+          }
+        ],
+        [
+          {
+            "team_a": "Alabama",
+            "seed_a": 4,
+            "team_b": "Baylor",
+            "seed_b": 3,
+            "prob_a": 0.436,
+            "prob_b": 0.564,
+            "pick": "Baylor",
+            "pick_seed": 3,
+            "pick_prob": 0.564
+          }
+        ]
+      ],
+      "winner": {
+        "seed": 3,
+        "name": "Baylor"
+      }
+    },
+    "South": {
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Houston"
+        },
+        {
+          "seed": 16,
+          "name": "Longwood"
+        },
+        {
+          "seed": 8,
+          "name": "Nebraska"
+        },
+        {
+          "seed": 9,
+          "name": "Texas A&M"
+        },
+        {
+          "seed": 5,
+          "name": "Wisconsin"
+        },
+        {
+          "seed": 12,
+          "name": "James Madison"
+        },
+        {
+          "seed": 4,
+          "name": "Duke"
+        },
+        {
+          "seed": 13,
+          "name": "Vermont"
+        },
+        {
+          "seed": 6,
+          "name": "Texas Tech"
+        },
+        {
+          "seed": 11,
+          "name": "NC State"
+        },
+        {
+          "seed": 3,
+          "name": "Kentucky"
+        },
+        {
+          "seed": 14,
+          "name": "Oakland"
+        },
+        {
+          "seed": 7,
+          "name": "Florida"
+        },
+        {
+          "seed": 10,
+          "name": "Colorado"
+        },
+        {
+          "seed": 2,
+          "name": "Marquette"
+        },
+        {
+          "seed": 15,
+          "name": "Western Kentucky"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "team_a": "Houston",
+            "seed_a": 1,
+            "team_b": "Longwood",
+            "seed_b": 16,
+            "prob_a": 0.987,
+            "prob_b": 0.013,
+            "pick": "Houston",
+            "pick_seed": 1,
+            "pick_prob": 0.987
+          },
+          {
+            "team_a": "Nebraska",
+            "seed_a": 8,
+            "team_b": "Texas A&M",
+            "seed_b": 9,
+            "prob_a": 0.075,
+            "prob_b": 0.925,
+            "pick": "Texas A&M",
+            "pick_seed": 9,
+            "pick_prob": 0.925
+          },
+          {
+            "team_a": "Wisconsin",
+            "seed_a": 5,
+            "team_b": "James Madison",
+            "seed_b": 12,
+            "prob_a": 0.927,
+            "prob_b": 0.073,
+            "pick": "Wisconsin",
+            "pick_seed": 5,
+            "pick_prob": 0.927
+          },
+          {
+            "team_a": "Duke",
+            "seed_a": 4,
+            "team_b": "Vermont",
+            "seed_b": 13,
+            "prob_a": 0.947,
+            "prob_b": 0.053,
+            "pick": "Duke",
+            "pick_seed": 4,
+            "pick_prob": 0.947
+          },
+          {
+            "team_a": "Texas Tech",
+            "seed_a": 6,
+            "team_b": "NC State",
+            "seed_b": 11,
+            "prob_a": 0.774,
+            "prob_b": 0.226,
+            "pick": "Texas Tech",
+            "pick_seed": 6,
+            "pick_prob": 0.774
+          },
+          {
+            "team_a": "Kentucky",
+            "seed_a": 3,
+            "team_b": "Oakland",
+            "seed_b": 14,
+            "prob_a": 0.98,
+            "prob_b": 0.02,
+            "pick": "Kentucky",
+            "pick_seed": 3,
+            "pick_prob": 0.98
+          },
+          {
+            "team_a": "Florida",
+            "seed_a": 7,
+            "team_b": "Colorado",
+            "seed_b": 10,
+            "prob_a": 0.078,
+            "prob_b": 0.922,
+            "pick": "Colorado",
+            "pick_seed": 10,
+            "pick_prob": 0.922
+          },
+          {
+            "team_a": "Marquette",
+            "seed_a": 2,
+            "team_b": "Western Kentucky",
+            "seed_b": 15,
+            "prob_a": 0.98,
+            "prob_b": 0.02,
+            "pick": "Marquette",
+            "pick_seed": 2,
+            "pick_prob": 0.98
+          }
+        ],
+        [
+          {
+            "team_a": "Houston",
+            "seed_a": 1,
+            "team_b": "Texas A&M",
+            "seed_b": 9,
+            "prob_a": 0.881,
+            "prob_b": 0.119,
+            "pick": "Houston",
+            "pick_seed": 1,
+            "pick_prob": 0.881
+          },
+          {
+            "team_a": "Wisconsin",
+            "seed_a": 5,
+            "team_b": "Duke",
+            "seed_b": 4,
+            "prob_a": 0.345,
+            "prob_b": 0.655,
+            "pick": "Duke",
+            "pick_seed": 4,
+            "pick_prob": 0.655
+          },
+          {
+            "team_a": "Texas Tech",
+            "seed_a": 6,
+            "team_b": "Kentucky",
+            "seed_b": 3,
+            "prob_a": 0.198,
+            "prob_b": 0.802,
+            "pick": "Kentucky",
+            "pick_seed": 3,
+            "pick_prob": 0.802
+          },
+          {
+            "team_a": "Colorado",
+            "seed_a": 10,
+            "team_b": "Marquette",
+            "seed_b": 2,
+            "prob_a": 0.097,
+            "prob_b": 0.903,
+            "pick": "Marquette",
+            "pick_seed": 2,
+            "pick_prob": 0.903
+          }
+        ],
+        [
+          {
+            "team_a": "Houston",
+            "seed_a": 1,
+            "team_b": "Duke",
+            "seed_b": 4,
+            "prob_a": 0.45,
+            "prob_b": 0.55,
+            "pick": "Duke",
+            "pick_seed": 4,
+            "pick_prob": 0.55
+          },
+          {
+            "team_a": "Kentucky",
+            "seed_a": 3,
+            "team_b": "Marquette",
+            "seed_b": 2,
+            "prob_a": 0.081,
+            "prob_b": 0.919,
+            "pick": "Marquette",
+            "pick_seed": 2,
+            "pick_prob": 0.919
+          }
+        ],
+        [
+          {
+            "team_a": "Duke",
+            "seed_a": 4,
+            "team_b": "Marquette",
+            "seed_b": 2,
+            "prob_a": 0.413,
+            "prob_b": 0.587,
+            "pick": "Marquette",
+            "pick_seed": 2,
+            "pick_prob": 0.587
+          }
+        ]
+      ],
+      "winner": {
+        "seed": 2,
+        "name": "Marquette"
+      }
+    },
+    "Midwest": {
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Purdue"
+        },
+        {
+          "seed": 16,
+          "name": "Montana State"
+        },
+        {
+          "seed": 8,
+          "name": "Utah State"
+        },
+        {
+          "seed": 9,
+          "name": "TCU"
+        },
+        {
+          "seed": 5,
+          "name": "Gonzaga"
+        },
+        {
+          "seed": 12,
+          "name": "McNeese State"
+        },
+        {
+          "seed": 4,
+          "name": "Kansas"
+        },
+        {
+          "seed": 13,
+          "name": "Samford"
+        },
+        {
+          "seed": 6,
+          "name": "South Carolina"
+        },
+        {
+          "seed": 11,
+          "name": "Oregon"
+        },
+        {
+          "seed": 3,
+          "name": "Creighton"
+        },
+        {
+          "seed": 14,
+          "name": "Akron"
+        },
+        {
+          "seed": 7,
+          "name": "Texas"
+        },
+        {
+          "seed": 10,
+          "name": "Colorado State"
+        },
+        {
+          "seed": 2,
+          "name": "Tennessee"
+        },
+        {
+          "seed": 15,
+          "name": "Saint Peter's"
+        }
+      ],
+      "rounds": [
+        [
+          {
+            "team_a": "Purdue",
+            "seed_a": 1,
+            "team_b": "Montana State",
+            "seed_b": 16,
+            "prob_a": 0.985,
+            "prob_b": 0.015,
+            "pick": "Purdue",
+            "pick_seed": 1,
+            "pick_prob": 0.985
+          },
+          {
+            "team_a": "Utah State",
+            "seed_a": 8,
+            "team_b": "TCU",
+            "seed_b": 9,
+            "prob_a": 0.298,
+            "prob_b": 0.702,
+            "pick": "TCU",
+            "pick_seed": 9,
+            "pick_prob": 0.702
+          },
+          {
+            "team_a": "Gonzaga",
+            "seed_a": 5,
+            "team_b": "McNeese State",
+            "seed_b": 12,
+            "prob_a": 0.994,
+            "prob_b": 0.006,
+            "pick": "Gonzaga",
+            "pick_seed": 5,
+            "pick_prob": 0.994
+          },
+          {
+            "team_a": "Kansas",
+            "seed_a": 4,
+            "team_b": "Samford",
+            "seed_b": 13,
+            "prob_a": 0.99,
+            "prob_b": 0.01,
+            "pick": "Kansas",
+            "pick_seed": 4,
+            "pick_prob": 0.99
+          },
+          {
+            "team_a": "South Carolina",
+            "seed_a": 6,
+            "team_b": "Oregon",
+            "seed_b": 11,
+            "prob_a": 0.086,
+            "prob_b": 0.914,
+            "pick": "Oregon",
+            "pick_seed": 11,
+            "pick_prob": 0.914
+          },
+          {
+            "team_a": "Creighton",
+            "seed_a": 3,
+            "team_b": "Akron",
+            "seed_b": 14,
+            "prob_a": 0.962,
+            "prob_b": 0.038,
+            "pick": "Creighton",
+            "pick_seed": 3,
+            "pick_prob": 0.962
+          },
+          {
+            "team_a": "Texas",
+            "seed_a": 7,
+            "team_b": "Colorado State",
+            "seed_b": 10,
+            "prob_a": 0.989,
+            "prob_b": 0.011,
+            "pick": "Texas",
+            "pick_seed": 7,
+            "pick_prob": 0.989
+          },
+          {
+            "team_a": "Tennessee",
+            "seed_a": 2,
+            "team_b": "Saint Peter's",
+            "seed_b": 15,
+            "prob_a": 0.992,
+            "prob_b": 0.008,
+            "pick": "Tennessee",
+            "pick_seed": 2,
+            "pick_prob": 0.992
+          }
+        ],
+        [
+          {
+            "team_a": "Purdue",
+            "seed_a": 1,
+            "team_b": "TCU",
+            "seed_b": 9,
+            "prob_a": 0.736,
+            "prob_b": 0.264,
+            "pick": "Purdue",
+            "pick_seed": 1,
+            "pick_prob": 0.736
+          },
+          {
+            "team_a": "Gonzaga",
+            "seed_a": 5,
+            "team_b": "Kansas",
+            "seed_b": 4,
+            "prob_a": 0.41,
+            "prob_b": 0.59,
+            "pick": "Kansas",
+            "pick_seed": 4,
+            "pick_prob": 0.59
+          },
+          {
+            "team_a": "Oregon",
+            "seed_a": 11,
+            "team_b": "Creighton",
+            "seed_b": 3,
+            "prob_a": 0.159,
+            "prob_b": 0.841,
+            "pick": "Creighton",
+            "pick_seed": 3,
+            "pick_prob": 0.841
+          },
+          {
+            "team_a": "Texas",
+            "seed_a": 7,
+            "team_b": "Tennessee",
+            "seed_b": 2,
+            "prob_a": 0.546,
+            "prob_b": 0.454,
+            "pick": "Texas",
+            "pick_seed": 7,
+            "pick_prob": 0.546
+          }
+        ],
+        [
+          {
+            "team_a": "Purdue",
+            "seed_a": 1,
+            "team_b": "Kansas",
+            "seed_b": 4,
+            "prob_a": 0.211,
+            "prob_b": 0.789,
+            "pick": "Kansas",
+            "pick_seed": 4,
+            "pick_prob": 0.789
+          },
+          {
+            "team_a": "Creighton",
+            "seed_a": 3,
+            "team_b": "Texas",
+            "seed_b": 7,
+            "prob_a": 0.826,
+            "prob_b": 0.174,
+            "pick": "Creighton",
+            "pick_seed": 3,
+            "pick_prob": 0.826
+          }
+        ],
+        [
+          {
+            "team_a": "Kansas",
+            "seed_a": 4,
+            "team_b": "Creighton",
+            "seed_b": 3,
+            "prob_a": 0.257,
+            "prob_b": 0.743,
+            "pick": "Creighton",
+            "pick_seed": 3,
+            "pick_prob": 0.743
+          }
+        ]
+      ],
+      "winner": {
+        "seed": 3,
+        "name": "Creighton"
+      }
+    }
+  },
+  "final_four": [
+    {
+      "team_a": "UConn",
+      "seed_a": 1,
+      "team_b": "Baylor",
+      "seed_b": 3,
+      "prob_a": 0.32,
+      "prob_b": 0.68,
+      "pick": "Baylor",
+      "pick_seed": 3,
+      "pick_prob": 0.68
+    },
+    {
+      "team_a": "Marquette",
+      "seed_a": 2,
+      "team_b": "Creighton",
+      "seed_b": 3,
+      "prob_a": 0.518,
+      "prob_b": 0.482,
+      "pick": "Marquette",
+      "pick_seed": 2,
+      "pick_prob": 0.518
+    }
+  ],
+  "championship": {
+    "team_a": "Baylor",
+    "seed_a": 3,
+    "team_b": "Marquette",
+    "seed_b": 2,
+    "prob_a": 0.732,
+    "prob_b": 0.268,
+    "pick": "Baylor",
+    "pick_seed": 3,
+    "pick_prob": 0.732
+  },
+  "champion": {
+    "seed": 3,
+    "name": "Baylor"
+  }
+}

@@ -1,0 +1,435 @@
+:root {
+  --bg: #0a0e17;
+  --surface: #131a2b;
+  --surface-2: #1a2340;
+  --border: #253354;
+  --text: #e4e8f1;
+  --text-dim: #8892a8;
+  --accent: #ff6b35;
+  --accent-glow: rgba(255, 107, 53, 0.15);
+  --green: #34d399;
+  --green-dim: rgba(52, 211, 153, 0.12);
+  --red: #f87171;
+  --gold: #fbbf24;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text);
+}
+
+.subtitle {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--accent);
+  margin-top: 0.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.info-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+.info-toggle:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+/* Model info */
+.model-info {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+.model-info h3 {
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.model-info ul {
+  list-style: none;
+  color: var(--text-dim);
+}
+.model-info li {
+  margin-bottom: 0.3rem;
+}
+.model-info strong {
+  color: var(--text);
+}
+
+/* Champion banner */
+.champion-banner {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.champion-banner::before {
+  content: "🏆";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  opacity: 0.06;
+}
+.champion-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+.champion-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.champion-seed {
+  color: var(--gold);
+  font-weight: 400;
+}
+
+/* Final Four section */
+.final-four-section {
+  margin-bottom: 3rem;
+}
+.section-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.ff-matchups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Regions */
+.regions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.region {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.region-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  user-select: none;
+}
+.region-title:hover {
+  background: var(--surface-2);
+}
+.region-winner {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--green);
+  margin-left: auto;
+}
+.toggle {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+/* Rounds */
+.rounds {
+  padding: 0 1rem 1rem;
+}
+.round {
+  margin-bottom: 1rem;
+}
+.round:last-child {
+  margin-bottom: 0;
+}
+.round-title {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+  padding-left: 0.25rem;
+}
+
+/* Matchups */
+.matchups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.matchup {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+.matchup:hover {
+  border-color: var(--accent);
+}
+.matchup.upset {
+  border-left: 3px solid var(--red);
+}
+
+/* Team rows */
+.team-row {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.78rem;
+  transition: background 0.1s;
+}
+.team-row.winner {
+  background: var(--green-dim);
+}
+.team-row.loser {
+  opacity: 0.55;
+}
+
+.seed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 3px;
+  background: var(--surface-2);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+.winner .seed {
+  background: var(--green);
+  color: var(--bg);
+}
+
+.team-name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.prob {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-left: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+.winner .prob {
+  color: var(--green);
+  font-weight: 600;
+}
+
+/* Confidence bar */
+.confidence-bar {
+  height: 3px;
+  background: var(--surface-2);
+  position: relative;
+}
+.confidence-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+.confidence-label {
+  display: none;
+}
+.matchup:hover .confidence-label {
+  display: block;
+  position: absolute;
+  right: 0.5rem;
+  top: -1rem;
+  font-size: 0.6rem;
+  color: var(--accent);
+}
+
+/* Custom Matchup */
+.custom-matchup {
+  margin-bottom: 3rem;
+}
+.custom-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.custom-controls select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 140px;
+  cursor: pointer;
+}
+.custom-controls select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.vs {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.custom-result {
+  margin-top: 1.25rem;
+}
+.custom-result.dim {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.custom-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.custom-team-label {
+  font-size: 0.78rem;
+  white-space: nowrap;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.custom-team-label.left {
+  justify-content: flex-end;
+  text-align: right;
+}
+.custom-team-label.right {
+  text-align: left;
+}
+.custom-team-label .seed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 3px;
+  background: var(--surface-2);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+.custom-bar {
+  display: flex;
+  flex: 1;
+  height: 2rem;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+.custom-bar-a {
+  background: var(--green);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  transition: width 0.3s ease;
+  min-width: 3rem;
+}
+.custom-bar-b {
+  background: var(--accent);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  transition: width 0.3s ease;
+  min-width: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+  .header h1 {
+    font-size: 1.3rem;
+  }
+  .regions-grid {
+    grid-template-columns: 1fr;
+  }
+  .champion-name {
+    font-size: 1.5rem;
+  }
+}
